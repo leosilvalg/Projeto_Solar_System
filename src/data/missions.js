@@ -1,5 +1,5 @@
 const USA = 'Estados Unidos';
-const URSS = 'URSS';
+const URSS = 'URSS'; // Commite PR
 
 const Missions = [
   {
