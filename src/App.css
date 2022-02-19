@@ -1,10 +1,73 @@
 * {
+  background: black;
   box-sizing: border-box;
+  color: snow;
   margin: 0;
   padding: 0;
 }
 
-header > h1 {
+.header {
+  border: 2px solid snow;
+  border-radius: 5px;
+  margin-bottom: 90px;
+  padding: 10px;
+}
+
+.header > h1 {
   font-size: 2.4rem;
   text-align: center;
+}
+
+.subTitle {
+  font-size: 2.1rem;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.cards {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 75px;
+  width: 85%;
+}
+
+.planetCard {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.planetCard > img {
+  width: 160px;
+}
+
+.planetCard > img:hover {
+  transition: 0.4s;
+  width: 190px;
+}
+
+.missionCard {
+  align-items: center;
+  backdrop-filter: blur(6px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+
+.missoes {
+  border: 1px solid snow;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+  width: 350px;
 }
